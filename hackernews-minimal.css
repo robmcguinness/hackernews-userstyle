@@ -1,110 +1,113 @@
-body {
-    margin: 0;
-}
+@-moz-document url-prefix(https://news.ycombinator.com/) {
 
-body > center > table {
-    width: 100%;
-    background-color: transparent;
-}
+  body {
+      margin: 0;
+  }
 
-body > center > table > tbody > tr:first-child > td {
-    background-image: none;
-	border-bottom: none;
-	background: white;
-    box-shadow: 0 2px rgba(0,0,0,.1);
-}
+  body > center > table {
+      width: 100%;
+      background-color: transparent;
+  }
 
-body > center > table > tbody > tr:first-child > td > table {
-    padding: 10px !important;
-    margin: 0 auto;
-    width: 960px;
-}
+  body > center > table > tbody > tr:first-child > td {
+      background-image: none;
+    border-bottom: none;
+    background: white;
+      box-shadow: 0 2px rgba(0,0,0,.1);
+  }
 
-body > center > table > tbody > tr:first-child > td > table > tbody > tr > td:first-child {
-    padding-right: 10px;
-}
+  body > center > table > tbody > tr:first-child > td > table {
+      padding: 10px !important;
+      margin: 0 auto;
+      width: 960px;
+  }
 
-.pagetop {
-    font-family: Helvetica, sans-serif;
-    font-size: 14px;
-}
+  body > center > table > tbody > tr:first-child > td > table > tbody > tr > td:first-child {
+      padding-right: 10px;
+  }
 
-a {
+  .pagetop {
+      font-family: Helvetica, sans-serif;
+      font-size: 14px;
+  }
+
+  a {
+      font-weight: normal;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+  body > center > table > tbody > tr:nth-child(3) > td {
+      padding: 20px 0;
+  }
+
+  body > center > table > tbody > tr:nth-child(3) > td > table {
+      width: 960px;
+      margin: 0 auto;
+  }
+
+  .title {
+      font-family: Helvetica, sans-serif;
+      font-size: 14px;
+  }
+
+  .title > a {
     font-weight: normal;
-}
+      color: #d35400;
+  }
+    
+  .title > a:visited {
+    color: #A3A2A2;
+      font-weight: normal !important;
+  }
 
-a:hover {
-    text-decoration: underline;
-}
+  body > center > table > tbody > tr:nth-child(3) > td > table > tbody > tr:first-child > td:nth-child(2).title > a {
+      font-size: 18px;
+  }
 
-body > center > table > tbody > tr:nth-child(3) > td {
-    padding: 20px 0;
-}
+  .subtext {
+      height: 15px;
+      font-family: Helvetica, sans-serif;
+      vertical-align: top;
+  }
+    
+  .subtext a:visited {
+    color: #A3A2A2;
+  }
 
-body > center > table > tbody > tr:nth-child(3) > td > table {
-    width: 960px;
-    margin: 0 auto;
-}
+  td, .comment, .default, .comhead, .yclinks, .dead {
+      font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
+  }
 
-.title {
-    font-family: Helvetica, sans-serif;
-    font-size: 14px;
-}
+  body > center > table > tbody > tr:nth-child(3) > td > form {
+      width: 960px;
+      margin: 0 auto;
+  }
 
-.title > a {
-	font-weight: normal;
-    color: #d35400;
-}
-  
-.title > a:visited {
-	color: #A3A2A2;
-    font-weight: normal !important;
-}
+  td > center > table {
+      width: 940px;
+      background-color: white;
+      border: solid 1px #000;
+  }
 
-body > center > table > tbody > tr:nth-child(3) > td > table > tbody > tr:first-child > td:nth-child(2).title > a {
-    font-size: 18px;
-}
+  td > center > table td {
+      padding: 10px;
+  }
 
-.subtext {
-    height: 15px;
-    font-family: Helvetica, sans-serif;
-    vertical-align: top;
-}
-  
-.subtext a:visited {
-  color: #A3A2A2;
-}
+  body > center > table > tbody > tr > td > table {
+      width: 960px;
+      margin: 0 auto;
+  }
 
-td, .comment, .default, .comhead, .yclinks, .dead {
-    font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
-}
+  .comment u, .comment u a, .comment u a:visited, .comment + p u, .comment + p u a, .comment + p u a:visited {
+      text-decoration: none;
+      color: #777;
+  }
 
-body > center > table > tbody > tr:nth-child(3) > td > form {
-    width: 960px;
-    margin: 0 auto;
-}
-
-td > center > table {
-    width: 940px;
-    background-color: white;
-    border: solid 1px #000;
-}
-
-td > center > table td {
-    padding: 10px;
-}
-
-body > center > table > tbody > tr > td > table {
-    width: 960px;
-    margin: 0 auto;
-}
-
-.comment u, .comment u a, .comment u a:visited, .comment + p u, .comment + p u a, .comment + p u a:visited {
-    text-decoration: none;
-    color: #777;
-}
-
-.comment p, .comment + p {
-    margin: 8px 0 0 0;
-    line-height: 16px;
+  .comment p, .comment + p {
+      margin: 8px 0 0 0;
+      line-height: 16px;
+  }
 }
