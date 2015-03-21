@@ -27,6 +27,15 @@
   body > center > table > tbody > tr:first-child > td > table > tbody > tr > td:first-child {
     padding-right: 10px;
   }
+  body[alink] {
+    width: 400px;
+    margin: 0 auto;
+    padding: 3em 0;
+  }
+  a[href="forgot?id="] {
+    margin-bottom: 1em;
+    display: block;
+  }
   a:link {
     color: #555;
   }
