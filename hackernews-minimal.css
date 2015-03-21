@@ -89,6 +89,9 @@
   td, .comment, .default, .comhead, .yclinks, .dead {
     font-family: "Open Sans", "Trebuchet Ms", "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
   }
+  td[bgcolor="#ff6600"] {
+    background-color: white;
+  }
   .title .comhead {
     font-size: .8em;
   }
