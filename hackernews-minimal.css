@@ -184,7 +184,7 @@
     border-color: #ccc;
     font-family: "Open Sans", "Trebuchet Ms", sans-serif;
   }
-  textarea {
+  textarea, input[type="text"], select {
     font-family: "Open Sans", "Trebuchet Ms", sans-serif;
     font-size: 16px;
     color: #555;
